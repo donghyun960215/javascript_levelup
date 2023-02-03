@@ -20,13 +20,13 @@ trim() | 공백제거  | console.log(str.trim())
 메소드 | 속성 | 예제
 --|--|--
 toFixed(2) | 인자값 만큼 소수점 표출 string로 변환이 된다.number로 다시 변환을 하기 위해서는  parseInt()정수, parseFloat()소수 를 사용하여 변환을 해준다. | console.log(pi.toFixed(2))
-Math.abs(0) | 인수로 들오는 값의 절대값을 표현한다. | console.log('abs :',Math.abs(-12))
-Math.min(1,2,3) | 인수로 들어온 숫자데이터중에 가장 작은 데이터 표현 | console.log('min:',Math.min(2, 8,))
-Math.max(1,2,3) | 인수로 들어온 숫자데이터중에 가장 큰 데이터 표현 |console.log('max:',Math.max(2, 8))
-Math.ceil(3.14) | 올림처리 | console.log('ceil:',Math.ceil(3.14))
-Math.floor(3.14) | 내림처리 | console.log('floor:',Math.floor(3.14))
-Math.round(3.74) | 반올림내림 처리 | console.log('round:',Math.round(3.14))
-Math.random() | 랜덤 | console.log('random:',Math.random())
+Math.abs(0) | 인수로 들오는 값의 절대값을 표현한다. | console.log('abs:', Math.abs(-12))
+Math.min(1,2,3) | 인수로 들어온 숫자데이터중에 가장 작은 데이터 표현 | console.log('min:', Math.min(2, 8,))
+Math.max(1,2,3) | 인수로 들어온 숫자데이터중에 가장 큰 데이터 표현 |console.log('max:', Math.max(2, 8))
+Math.ceil(3.14) | 올림처리 | console.log('ceil:', Math.ceil(3.14))
+Math.floor(3.14) | 내림처리 | console.log('floor:', Math.floor(3.14))
+Math.round(3.74) | 반올림내림 처리 | console.log('round:', Math.round(3.14))
+Math.random() | 랜덤 | console.log('random:', Math.random())
 
 
 
