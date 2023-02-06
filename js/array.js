@@ -33,11 +33,11 @@ const fruits = ['Apple','Banana', 'Cherry']
 // console.log(a)
 
 // const b = fruits.map(function (fruit, index){
-//   // return `${fruit} - ${index}`
-//   return {
-//   id: index,
-//   name: fruit
-//   }
+//   return `${fruit} - ${index}`
+//   // return {
+//   // id: index,
+//   // name: fruit
+//   // }
 // })
 // console.log(b)
 
@@ -125,5 +125,5 @@ const fruits = ['Apple','Banana', 'Cherry']
 
 // console.log(numbers)
 
-fruits.splice(2, 0, 'dong')
-console.log(fruits)
+// fruits.splice(2, 0, 'dong')
+// console.log(fruits)
