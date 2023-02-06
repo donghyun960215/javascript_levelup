@@ -48,4 +48,6 @@ const fruits = ['Apple','Banana', 'Cherry']
 .includes() | 배열데이터 부분에 인수로 사용된 특정한데이터가 포함이 되어있는지 확인하는 메소드 | const a = numbers.includes(3)</br>console.log(a)</br>const b = fruits.includes('Dong')</br>console.log(b)
 .push() | 배열에 가장 뒤에 특정한 인수 내용을 밀어 넣는다.</br>원본이 수정됨으로 주의한다. | numbers.push(5)</br>console.log(numbers)
 .unshift() | 가장 앞에 특정한 인수 내용을 밑어 넣는다. </br> 원본이 수정됨으로 주의한다. | numbers.unshift(0)</br>console.log(numbers)
-
+.reverse() | 배열데이터를 거로 뒤집는다.</br>원본이 수정됨으로 주의한다. | number.reverse()
+.splice() | 첫번쨰 인수 인덱스 번호에서 두번째인수만큼 지운다.</br>원본이 수정됨으로 주의한다. | number.splice(2, 1)
+.splice() | 첫번쨰 인수 인덱스 번호에서 두번째인수만큼 지운다.세번째 인수값을 끼워 넣는다.</br>원본이 수정됨으로 주의한다. | number.splice(2, 1, 999)
