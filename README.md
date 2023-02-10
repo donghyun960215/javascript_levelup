@@ -51,3 +51,25 @@ const fruits = ['Apple','Banana', 'Cherry']
 .reverse() | 배열데이터를 거로 뒤집는다.</br>원본이 수정됨으로 주의한다. | number.reverse()
 .splice() | 첫번쨰 인수 인덱스 번호에서 두번째인수만큼 지운다.</br>원본이 수정됨으로 주의한다. | number.splice(2, 1)
 .splice() | 첫번쨰 인수 인덱스 번호에서 두번째인수만큼 지운다.세번째 인수값을 끼워 넣는다.</br>원본이 수정됨으로 주의한다. | number.splice(2, 1, 999)
+
+## Object
+#### 자주 사용되는 메소드
+```js
+const userAge = {
+  name: 'dong',
+  age: 28
+}
+const userEmail = {
+  name: 'dong',
+  email: 'tlzma789@naver.com'
+}
+const user = {
+  name: 'dong',
+  age: 28,
+  email: 'tlzma789@naver.com'
+}
+```
+메소드 | 속성 | 예제
+--|--|--
+.assign | 출처객체(두번째인수)를 복사해서 대상객체(첫번째인수)에 집어넣는다.</br>인수를 많이 넣을 수 있으며 (a, b, c) 이렇게 되면 대상객체는 a 출처객체는 b,c가 된다.</br> 두개 이상의 객체 데이터를 하나의 객체 데이터로 만들고 싶다면 대상객체를 {} 처리해준다| const target = Object.assign(userAge, userEmail)</br>const target = Object.assign({},userAge, userEmail)
+.keys | 객체 데이터의 key들만 추출되서 새로운 배열데이터가 된다 | const keys = Object.keys(user)</br>console.log(keys)</br> = ['name', 'age', 'email'] </br> console.log(user['email'])</br> = tlzma789@naver.com
